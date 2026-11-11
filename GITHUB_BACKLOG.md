@@ -31,9 +31,9 @@ Backend Repository: https://github.com/igorhgds/industrial-iot-backend
 ### Issue #2: [F1-US02] Core HTTP Architecture: Global Error Interceptor & Domain Enums
 - **Labels:** `architecture`, `f1-foundation`
 - **Acceptance Criteria:**
-  - [ ] TypeScript interfaces created for `ApiErrorResponse` and validation field errors.
-  - [ ] Global `apiErrorInterceptor` (`HttpInterceptorFn`) implemented to catch HTTP 400/404/422/500 errors and notify the user.
-  - [ ] Core domain enums defined in `core/models/`: `HealthStatus` (`HEALTH`, `WARNING`, `CRITICAL`), `AlertSeverity`, `AlertStatus`, `WorkOrderStatus`, `LogicalOperator`, `ComparisonOperator`, `SensorType`, and `ActuatorType`.
+  - [x] TypeScript interfaces created for `ApiErrorResponse` and validation field errors.
+  - [x] Global `apiErrorInterceptor` (`HttpInterceptorFn`) implemented to catch HTTP 400/404/422/500 errors and notify the user.
+  - [x] Core domain enums defined in `core/models/`: `HealthStatus` (`HEALTH`, `WARNING`, `CRITICAL`), `AlertSeverity`, `AlertStatus`, `WorkOrderStatus`, `LogicalOperator`, `ComparisonOperator`, `SensorType`, and `ActuatorType`.
 - **Definition of Done (DoD):** HTTP client and error interceptor registered in `app.config.ts` and validated against backend error responses.
 
 ### Issue #3: [F1-US03] Industrial SCADA/HMI App Shell & Shared Health Status Components
