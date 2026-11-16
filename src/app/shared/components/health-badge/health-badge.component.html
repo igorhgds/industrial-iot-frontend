@@ -1,0 +1,7 @@
+<span [class]="badgeClasses()">
+  <!-- Led indicador com status (com animação de pulso se for CRITICAL) -->
+  <span class="w-1.5 h-1.5 rounded-full" [class]="dotClasses()" aria-hidden="true"></span>
+  
+  <!-- Texto amigável (OPERACIONAL, ATENÇÃO, CRÍTICO) -->
+  <span class="tracking-wide uppercase font-semibold font-mono">{{ label() }}</span>
+</span>
