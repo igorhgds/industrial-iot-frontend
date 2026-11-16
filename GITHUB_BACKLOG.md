@@ -39,10 +39,10 @@ Backend Repository: https://github.com/igorhgds/industrial-iot-backend
 ### Issue #3: [F1-US03] Industrial SCADA/HMI App Shell & Shared Health Status Components
 - **Labels:** `ui-design-system`, `f1-foundation`
 - **Acceptance Criteria:**
-  - [ ] `ShellComponent` created with collapsible sidebar navigation for Dashboard, Plant Assets, Rules Studio, Alerts, Work Orders, and Users.
-  - [ ] Topbar displaying system connectivity indicator and active `PENDING` alerts badge counter.
-  - [ ] Reusable `HealthBadgeComponent` rendering semantic colors/animations for `HEALTH`, `WARNING`, and `CRITICAL`.
-  - [ ] Lazy-loaded top-level routes configured in `app.routes.ts`.
+  - [x] `ShellComponent` created with collapsible sidebar navigation for Dashboard, Plant Assets, Rules Studio, Alerts, Work Orders, and Users.
+  - [x] Topbar displaying system connectivity indicator and active `PENDING` alerts badge counter.
+  - [x] Reusable `HealthBadgeComponent` rendering semantic colors/animations for `HEALTH` (OPERATIONAL), `WARNING`, and `CRITICAL`.
+  - [x] Lazy-loaded top-level routes configured in `app.routes.ts`.
 - **Definition of Done (DoD):** Responsive dark-mode SCADA layout navigating smoothly across all lazy-loaded feature placeholders.
 
 ---
